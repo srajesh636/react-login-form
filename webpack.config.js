@@ -4,7 +4,7 @@ const webackDashboard= require("webpack-dashboard/plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.join(__dirname, "/dist"),
+    path: path.join(__dirname, "./public/dist"),
     filename: "bundle.js"
   },
 
@@ -19,14 +19,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "style-loader"
-          }
-        ]
+        use: ["style-loader", "css-loader"]
       }
     ]
   },

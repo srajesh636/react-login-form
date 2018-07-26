@@ -1,0 +1,65 @@
+.page-login{
+   margin-top: 80px;
+}
+body{
+  /* background-color: #dfe6e9; */
+  background:linear-gradient(to right,#2c3e50,#4ca1af);
+}
+.login-bg{
+
+
+
+  height: 100%;
+   width: 100%;
+   display: flex;
+   opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+
+.wtn-logo{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 5px;
+}
+@media only screen and (max-width: 600px) {
+
+.login-image{
+  display: none;
+}
+
+}
+
+.card-content{
+    display:flex;
+}
+.card-form{
+  flex:2;
+  padding:40px;
+}
+
+.login-hr{
+  width: 100px;
+height: 2px;
+float: left;
+border: none;
+background: linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%);
+    border-radius: 3px;
+}
+.wtn-logo{
+
+      position: absolute;
+    width: 178px;
+    height: 162px;
+    top: 106px;
+    left: 40px;
+    border-radius: 50%;
+    opacity: 0.95;
+}
+
+.login-image{
+  position: relative;
+}
